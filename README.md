@@ -2,6 +2,8 @@
 
 Ansible é uma ferramenta de TI de código aberto para gerenciar, automatizar, configurar servidores e, implantar aplicativos, a partir de uma localização central. Ele inclui sua própria linguagem declarativa para descrever a configuração do sistema.
 
+[O mínimo que você precisa saber sobre ANSIBLE!](https://www.youtube.com/watch?v=y5eKF_XnGyE)
+
 ## Install
 
 [Installing Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#pipx-install)
@@ -14,7 +16,7 @@ ansible --version
 
 ## Colections
 
-https://docs.ansible.com/ansible/latest/user_guide/collections_using.html
+[collections_using](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html)
 
 ## O playbook é a soma de vários "plays"
 
