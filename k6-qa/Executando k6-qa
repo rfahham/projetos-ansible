@@ -1,0 +1,1 @@
+$ ansible-playbook -u ricardo_fahham_g_globo config-template-k6-qa.yaml -e "run_environment=dev" 
