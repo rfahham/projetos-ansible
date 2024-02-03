@@ -1,0 +1,9 @@
+Instalação
+
+MAC
+$ brew install ansible
+
+
+CENTOS
+# yum install epel-release
+# yum install ansile
