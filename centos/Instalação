@@ -1,0 +1,4 @@
+Instalação
+
+# yum install epel-release
+# yum install ansile

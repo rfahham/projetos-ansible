@@ -1,0 +1,11 @@
+hosts
+
+editar o arquivo hosts
+
+[distros]
+IPS
+
+[distros:vars]
+ansible_user=root
+ansible+-assword=archlinux23
+

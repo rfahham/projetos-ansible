@@ -1,0 +1,10 @@
+config
+
+cd /etc/ansible
+
+ls
+
+ansible.cfg
+hosts
+roles
+
