@@ -1,24 +1,17 @@
 # PLAYBOOK
 
-O playbok é o diretório onde a receita que o Ansible utilizará para a instalação dos aplicativos nos servidores/instâncias
+O playbook é o arquivo onde a receita que o Ansible utilizará para a instalação dos aplicativos nos servidores/instâncias
 
-## Exemplo
+## Criando os playbooks
 
-main.yaml
+Diretório: playbooks
 
-    ---
-    - name: Instalar o nginx
-    hosts: nginx # Especificados no arquivo hosts do diretório/etc/ansible
-    decome: yes # as tarefas vão ser executadas como root
-    tasks: 
-    - name: Instalar servidor web
-        package:
-        name: nginx
-        state: present
+- [nginx](./playbooks/nginx.yaml)
+- [copy](./playbooks/copy.yaml)
+
 
 ## Executando o playbook
 
 ```bash
 ansible-playbook -i hosts main.yaml
 ```
-

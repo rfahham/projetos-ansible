@@ -78,4 +78,15 @@ ec2-user@ec2-35-175-264-122.compute-1.amazonaws.com | SUCCESS => {
 }
 ```
 
-Proximo passo... Criar o [playbook.yaml](play.md)
+## Para remover o WARNING
+
+Editar o arquivo de host e adicionar
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+[local]
+localhost ansible_connection=local
+
+Próximo passo... [Ad Rock](adrock.md)
+
